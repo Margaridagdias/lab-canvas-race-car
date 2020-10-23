@@ -21,7 +21,7 @@ body {
   width: 150px;
 }
 
-body button {
+#start-button {
   font-size: 30px;
   background-color: #870007;
   color: #fff;
@@ -36,3 +36,12 @@ body button {
     float: left;
     padding: 20px 0px;
 }
+
+#game-board {
+  float: left;
+  padding: 20px 0px;
+  background-image: url('.images/road.png');
+  background-size: contain;
+}
+  /* height: 600px;
+  width: 500px; /*
